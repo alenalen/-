@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F72C61F81E0398A800E61D8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C61F71E0398A800E61D8A /* main.m */; };
+		F72C61FB1E0398A800E61D8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C61FA1E0398A800E61D8A /* AppDelegate.m */; };
+		F72C61FE1E0398A800E61D8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C61FD1E0398A800E61D8A /* ViewController.m */; };
+		F72C62011E0398A800E61D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72C61FF1E0398A800E61D8A /* Main.storyboard */; };
+		F72C62031E0398A800E61D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72C62021E0398A800E61D8A /* Assets.xcassets */; };
+		F72C62061E0398A800E61D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72C62041E0398A800E61D8A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F72C61F31E0398A800E61D8A /* 读取本地联系人.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "读取本地联系人.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72C61F71E0398A800E61D8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F72C61F91E0398A800E61D8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F72C61FA1E0398A800E61D8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F72C61FC1E0398A800E61D8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F72C61FD1E0398A800E61D8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F72C62001E0398A800E61D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F72C62021E0398A800E61D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F72C62051E0398A800E61D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F72C62071E0398A800E61D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F72C61F01E0398A800E61D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F72C61EA1E0398A800E61D8A = {
+			isa = PBXGroup;
+			children = (
+				F72C61F51E0398A800E61D8A /* 读取本地联系人 */,
+				F72C61F41E0398A800E61D8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F72C61F41E0398A800E61D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F72C61F31E0398A800E61D8A /* 读取本地联系人.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F72C61F51E0398A800E61D8A /* 读取本地联系人 */ = {
+			isa = PBXGroup;
+			children = (
+				F72C61F91E0398A800E61D8A /* AppDelegate.h */,
+				F72C61FA1E0398A800E61D8A /* AppDelegate.m */,
+				F72C61FC1E0398A800E61D8A /* ViewController.h */,
+				F72C61FD1E0398A800E61D8A /* ViewController.m */,
+				F72C61FF1E0398A800E61D8A /* Main.storyboard */,
+				F72C62021E0398A800E61D8A /* Assets.xcassets */,
+				F72C62041E0398A800E61D8A /* LaunchScreen.storyboard */,
+				F72C62071E0398A800E61D8A /* Info.plist */,
+				F72C61F61E0398A800E61D8A /* Supporting Files */,
+			);
+			path = "读取本地联系人";
+			sourceTree = "<group>";
+		};
+		F72C61F61E0398A800E61D8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F72C61F71E0398A800E61D8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F72C61F21E0398A800E61D8A /* 读取本地联系人 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72C620A1E0398A800E61D8A /* Build configuration list for PBXNativeTarget "读取本地联系人" */;
+			buildPhases = (
+				F72C61EF1E0398A800E61D8A /* Sources */,
+				F72C61F01E0398A800E61D8A /* Frameworks */,
+				F72C61F11E0398A800E61D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "读取本地联系人";
+			productName = "读取本地联系人";
+			productReference = F72C61F31E0398A800E61D8A /* 读取本地联系人.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F72C61EB1E0398A800E61D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = JingKeCompany;
+				TargetAttributes = {
+					F72C61F21E0398A800E61D8A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F72C61EE1E0398A800E61D8A /* Build configuration list for PBXProject "读取本地联系人" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F72C61EA1E0398A800E61D8A;
+			productRefGroup = F72C61F41E0398A800E61D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F72C61F21E0398A800E61D8A /* 读取本地联系人 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F72C61F11E0398A800E61D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72C62061E0398A800E61D8A /* LaunchScreen.storyboard in Resources */,
+				F72C62031E0398A800E61D8A /* Assets.xcassets in Resources */,
+				F72C62011E0398A800E61D8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F72C61EF1E0398A800E61D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72C61FE1E0398A800E61D8A /* ViewController.m in Sources */,
+				F72C61FB1E0398A800E61D8A /* AppDelegate.m in Sources */,
+				F72C61F81E0398A800E61D8A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F72C61FF1E0398A800E61D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72C62001E0398A800E61D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F72C62041E0398A800E61D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72C62051E0398A800E61D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F72C62081E0398A800E61D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F72C62091E0398A800E61D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F72C620B1E0398A800E61D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "读取本地联系人/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "long.m.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F72C620C1E0398A800E61D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "读取本地联系人/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "long.m.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F72C61EE1E0398A800E61D8A /* Build configuration list for PBXProject "读取本地联系人" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72C62081E0398A800E61D8A /* Debug */,
+				F72C62091E0398A800E61D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72C620A1E0398A800E61D8A /* Build configuration list for PBXNativeTarget "读取本地联系人" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72C620B1E0398A800E61D8A /* Debug */,
+				F72C620C1E0398A800E61D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F72C61EB1E0398A800E61D8A /* Project object */;
+}
