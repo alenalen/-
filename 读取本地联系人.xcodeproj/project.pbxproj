@@ -13,6 +13,7 @@
 		F72C62011E0398A800E61D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72C61FF1E0398A800E61D8A /* Main.storyboard */; };
 		F72C62031E0398A800E61D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72C62021E0398A800E61D8A /* Assets.xcassets */; };
 		F72C62061E0398A800E61D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72C62041E0398A800E61D8A /* LaunchScreen.storyboard */; };
+		F72C620F1E03992500E61D8A /* AddressBookManger.m in Sources */ = {isa = PBXBuildFile; fileRef = F72C620E1E03992500E61D8A /* AddressBookManger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F72C62021E0398A800E61D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F72C62051E0398A800E61D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F72C62071E0398A800E61D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72C620D1E03992500E61D8A /* AddressBookManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookManger.h; sourceTree = "<group>"; };
+		F72C620E1E03992500E61D8A /* AddressBookManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookManger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				F72C61FA1E0398A800E61D8A /* AppDelegate.m */,
 				F72C61FC1E0398A800E61D8A /* ViewController.h */,
 				F72C61FD1E0398A800E61D8A /* ViewController.m */,
+				F72C620D1E03992500E61D8A /* AddressBookManger.h */,
+				F72C620E1E03992500E61D8A /* AddressBookManger.m */,
 				F72C61FF1E0398A800E61D8A /* Main.storyboard */,
 				F72C62021E0398A800E61D8A /* Assets.xcassets */,
 				F72C62041E0398A800E61D8A /* LaunchScreen.storyboard */,
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					F72C61F21E0398A800E61D8A = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 63MRD8XCUL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -151,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F72C61FE1E0398A800E61D8A /* ViewController.m in Sources */,
+				F72C620F1E03992500E61D8A /* AddressBookManger.m in Sources */,
 				F72C61FB1E0398A800E61D8A /* AppDelegate.m in Sources */,
 				F72C61F81E0398A800E61D8A /* main.m in Sources */,
 			);
@@ -270,7 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63MRD8XCUL;
 				INFOPLIST_FILE = "读取本地联系人/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "long.m.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,7 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63MRD8XCUL;
 				INFOPLIST_FILE = "读取本地联系人/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "long.m.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";

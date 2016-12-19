@@ -7,23 +7,39 @@
 //
 
 #import "ViewController.h"
+#import "AddressBookManger.h"
 
 @interface ViewController ()
+{
+    UITableView *_contactTableView;
+    NSMutableArray *data;
+}
+@property (nonatomic,strong)NSMutableArray *dataSource;
 
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)getLocatContact:(id)sender {
+    AddressBookManger *manger = [AddressBookManger shareManger];
+    [manger currentReadVC:self readAdressBookResult:^(NSString *name, NSString *phone) {
+        self.nameTextField.text = name;
+        self.phoneTextField.text = phone;
+    }];
+}
+
 
 
 @end
